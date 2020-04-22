@@ -189,16 +189,20 @@
     <Content Include="Images\breakfast2.jpg" />
     <Content Include="Images\breakfast3.jpg" />
     <Content Include="Images\breakfastfin.jpg" />
+    <Content Include="Images\compost.png" />
     <Content Include="Images\dessert.jpg" />
     <Content Include="Images\dessertfin.jpg" />
     <Content Include="Images\dinner.jpg" />
     <Content Include="Images\dinnerfin.jpg" />
+    <Content Include="Images\herbs.png" />
     <Content Include="Images\imagesbreakfast.jpg" />
+    <Content Include="Images\leftoverfood.jpg" />
     <Content Include="Images\lunch.jpg" />
     <Content Include="Images\lunchfin.jpg" />
     <Content Include="Images\TeamLogo.png" />
     <Content Include="Images\title.png" />
     <Content Include="Images\title2.jpg" />
+    <Content Include="Images\title3.png" />
     <Content Include="Models\FoodRecipes.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>FoodRecipes.edmx</DependentUpon>
