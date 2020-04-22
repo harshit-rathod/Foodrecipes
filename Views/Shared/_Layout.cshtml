@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Envision a Green Life</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Styles/Layout.css" rel="stylesheet" />
+</head>
+<body>
+    <img class="logo" src="~/Images/TeamLogo.png" alt="project logo">
+    <p class="name"> ENVISION A GREEN LIFE </p>
+    <div class="navbar navbar-inverse" id="Topnav">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("HOME", "Index", "Home", null, new { @class = "classname" })</li>
+                    <li>@Html.ActionLink("TAKE THE QUIZ", "Quiz", "Home", null, new { @class = "classname" })</li>
+                    <li>@Html.ActionLink("REUSE", "Reuse", "Home", null, new { @class = "classname" })</li>
+                    <li>@Html.ActionLink("SAVE ENERGY", "AppliancesType", "Home", null, new { @class = "classname" })</li>
+                    <li>@Html.ActionLink("REDUCE FOOD WASTE", "Food", "Home", null, new { @class = "classname" })</li>
+                    <li>@Html.ActionLink("ABOUT", "About", "Home", null, new { @class = "classname" })</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Envision a Green Life</p>
+        </footer>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Topnav");
+            if (x.className === "navbar navbar-inverse") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar navbar-inverse";
+            }
+        }
+    </script>
+</body>
+</html>
