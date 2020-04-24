@@ -1,12 +1,13 @@
 ﻿
-/*.logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75px;
+    width: 1000px;
+    height: 1000px
 }
 
-.name {
+/*.name {
     text-align: center;
     color: #9cbd4f;
     font-family: Times;
@@ -82,6 +83,7 @@ body {
 a.active {
     background-color: #9cbd4f;
     color: white;
+    height: inherit;
 }
 
 .topnav .icon {
@@ -127,6 +129,7 @@ a.active {
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #9cbd4f;
     color: white;
+    height:inherit;
 }
 
 .dropdown-content a:hover {
