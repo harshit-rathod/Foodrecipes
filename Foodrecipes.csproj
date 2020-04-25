@@ -281,6 +281,8 @@
     <Content Include="Views\foodrecipes.edmx.diagram">
       <DependentUpon>foodrecipes.edmx</DependentUpon>
     </Content>
+    <Content Include="Views\air_conditioner\Index.cshtml" />
+    <Content Include="Views\air_conditioner\Details.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
