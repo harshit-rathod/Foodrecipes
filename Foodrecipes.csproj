@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Food_recpiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -269,10 +270,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Food_recipes\Create.cshtml" />
-    <Content Include="Views\Food_recipes\Delete.cshtml" />
-    <Content Include="Views\Food_recipes\Details.cshtml" />
-    <Content Include="Views\Food_recipes\Edit.cshtml" />
     <Content Include="Views\Food_recipes\Index.cshtml" />
     <EntityDeploy Include="Views\foodrecipes.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -284,7 +281,9 @@
     <Content Include="Views\air_conditioner\Index.cshtml" />
     <Content Include="Views\air_conditioner\Details.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Food_recpies\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
